@@ -8,7 +8,7 @@
  *
  **/
 
-class EasyHTTP {
+ class EasyHTTP {
   // Make an HTTP GET Request 
   async get(url) {
     const response = await fetch(url);
